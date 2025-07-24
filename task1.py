@@ -25,7 +25,7 @@ print(meals)
 center = meals[len(meals)//2]
 print(center)
 
-sorted_meal = sort(meals)
+sorted_meal = sorted(meals)
 print(sorted_meal)
 
 
