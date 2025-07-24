@@ -28,9 +28,12 @@ print(friends)
 new_friends = friends[:3]
 print(new_friends)
 
-#Paul isn't in new list 
+print("Pauls Position:", friends.index("Paul")+1)
 
-sorted_new_friends = sorted(new_friends)
-print(sorted_new_friends)
+
+sorted_friends = sorted(friends)
+reverse_sort = sorted_friends[::-1]
+
+print(reverse_sort)
 
 
